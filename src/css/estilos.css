@@ -1,0 +1,136 @@
+/* BODY */
+body {
+    background-image: url(/src/imagem/v856-kul-07a.jpg);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: left;
+    font-family: "Merriweather";
+}
+
+/* MAIN */
+.layout {
+    display: grid;
+    min-height: 100vh;
+
+    grid-template-columns: 240px 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+        "sidebar header"
+        "sidebar content"
+        "sidebar footer";
+}
+
+/* AREAS */
+
+.topbar {
+    grid-area: header;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content {
+    grid-area: content;
+    padding: 60px;
+    color: #ffffff;
+    display: grid;
+    gap: 40px;
+    grid-auto-rows: min-content;
+    font-size: 20px;
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 43px;
+}
+
+.footer {
+    grid-area: footer;
+    padding: 30px;
+    text-align: right;
+}
+
+/* HEADER */
+header h1 {
+    font-size: 3rem;
+    background: #5e6166;
+    border-radius: 10px;
+}
+
+/* MENU */
+
+.menu {
+    display: grid;
+    gap: 35px;
+    text-align: center;
+    list-style: none;
+}
+
+.lua {
+    justify-self: start;
+}
+
+.imagem-da-lua {
+    max-width: 50px;
+}
+
+.menu a {
+
+    color: #e7e7ee;
+    font-size: 17px;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+.menu li:hover {
+    transform: scale(1.1);
+}
+
+
+
+/* FOOTER */
+.footer address a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+    overflow: hidden;
+}
+
+.footer address a:hover {
+    transform: scale(1.004);
+    color: #0f0e0e;
+}
+
+
+.card {
+    background: #85878a;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+
+/* MEDIA QUERY */
+
+
+@media (max-width: 768px) {
+
+    .layout {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto 1fr auto;
+        grid-template-areas: 
+        "header"
+        "sidebar"
+        "content"
+        "footer"
+        ;
+    }
+}
