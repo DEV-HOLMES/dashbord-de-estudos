@@ -1,17 +1,17 @@
-# 📊 Dashboard de Estudos
+# Dashboard de Estudos
 
-## 📌 Sobre o Projeto
+## Sobre o Projeto
 O Dashboard de Estudos é um projeto desenvolvido com foco na construção de layouts modernos utilizando **CSS Grid**. A proposta foi aplicar conceitos de estilização bidimensional, organização estrutural e responsividade.
 
 ---
 
-## 🛠 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 - HTML5  
 - CSS3  
 
 ---
 
-## ⚙️ Funcionalidades
+## Funcionalidades
 - Estrutura semântica organizada (`header`, `aside`, `section`, `footer`)
 - Layout bidimensional utilizando `display: grid`
 - Interações com pseudo-classe `:hover`
@@ -20,12 +20,12 @@ O Dashboard de Estudos é um projeto desenvolvido com foco na construção de la
 
 ---
 
-## 🎯 Objetivo
+## Objetivo
 Aprofundar os fundamentos de CSS Grid, consolidar conceitos de layout e evoluir na construção de interfaces estruturadas e responsivas.
 
 ---
 
-## 🚀 Como Executar
+## Como Executar
 1. Clone este repositório:
 
 git clone 
@@ -34,7 +34,7 @@ git clone
 
 ---
 
-## 📷 Preview
+## Preview
 ![Preview do Projeto](preview.png)
 
 
