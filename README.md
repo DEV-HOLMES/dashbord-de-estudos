@@ -28,7 +28,7 @@ Aprofundar os fundamentos de CSS Grid, consolidar conceitos de layout e evoluir 
 ## Como Executar
 1. Clone este repositório:
 
-git clone 
+git clone https://github.com/DEV-HOLMES/dashbord-de-estudos.git
 
 2. Abra o arquivo `index.html` no navegador.
 
