@@ -1,6 +1,7 @@
 /* BODY */
 body {
-    background-image: url(/src/imagem/v856-kul-07a.jpg);
+    background-image: url(../imagem/v856-kul-07a.jpg);
+);
     background-repeat: no-repeat;
     min-height: 100vh;
     background-size: cover;
@@ -133,4 +134,5 @@ header h1 {
         "footer"
         ;
     }
+
 }
